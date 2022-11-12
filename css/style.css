@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+
+}
+
+
+
+.card{
+    margin: 10% auto;
+    background-color: hsl(216, 50%, 16%);
+    padding-bottom: 1.5%;
+    border-radius: 4%;
+    
+}
+
+.card-body{
+    padding: 0 5%;
+    margin: auto ;
+}
+
+.card-image {
+    position: relative;
+    /* margin:auto; */
+    
+    
+  }
+  
+  .image-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 90%;
+      width: 90%;
+      opacity: 0;
+      transition: .5s ease;
+      margin: 5% 6%;
+      padding: 2%;
+      background: hsl(178, 100%, 50%);
+    }
+  
+  .image-overlay:hover {
+      opacity: 40%;
+    }
+
+    .icon {
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .nft{
+        width: 90%;
+        height: 90%;
+        border-radius: 5%;
+        margin: 5% 6%;
+        padding: 2%;
+    }
+
+
+
+.card-title{
+    color: hsl(0, 0%, 100%);
+    padding-left: 2%;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+
+.card-title:hover{
+    color:hsl(178, 100%, 50%);
+    
+}
+
+p{
+    color:  hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1.125 rem;
+    padding-left: 2%;
+   
+}
+
+.eth{
+    color:  hsl(178, 100%, 50%);    
+    float: left;   
+    font-size: 0.9rem;
+}
+.clock{
+    color: hsl(215, 51%, 70%);
+    float: right;
+    font-size: 0.9rem;
+}
+
+hr{
+    color:  hsl(215, 51%, 70%);
+    width: 80%;
+    margin: 5% 10% !important;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    
+}
+
+.creator-img{
+        width: 100%  !important;
+        height: 100%  !important;
+}
+
+.avtar{
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    border-radius: 100% ;
+    border-color: #fff ;
+    border-width: 1px ;
+    border-style: solid;
+    margin-right: 3%;
+   
+}
+
+.card-footer{
+    padding: 10px auto 20px;
+    margin: auto !important;
+}
+
+
+.text-1{
+    color: hsl(215, 51%, 70%) ;
+}
+
+.text-2{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    
+}
+
+.text-2:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+.footer-text{
+    font-size: 0.8rem ;
+   
+}
